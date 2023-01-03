@@ -1,6 +1,6 @@
 <template>
     <nav class="bg-white border-gray-200 px-2 sm:px-4 py-2.5  dark:bg-gray-900">
-        <div class="container flex flex-wrap items-center justify-between mx-auto">
+        <div class="container flex items-center justify-between mx-auto">
             <NuxtLink to="/" class="flex text-white items-center">
             <svg viewBox="0 0 221 65" fill="none" xmlns="http://www.w3.org/2000/svg" settings="[object Object]"
                 class="h-8 mr-4 md:h-9 lg:mr-0">
@@ -30,9 +30,9 @@
                     fill="#00DC82"></path>
             </svg>
             </NuxtLink>
-            <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+            <div class="" id="navbar-default">
                 <ul
-                    class="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                    class="flex items-center border-gray-100 rounded-lg bg-gray-50 md:mt-0 md:text-sm md:font-medium dark:bg-gray-900 md:space-x-8">
                     <li>
                         <NuxtLink to="/"
                             class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
@@ -48,6 +48,7 @@
                     </li>
                 </ul>
             </div>
+            
         </div>
     </nav>
 </template>
